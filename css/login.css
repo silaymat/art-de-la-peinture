@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Source+Serif+4:ital,wght@1,200&display=swap");
+
+body {
+  font-family: "Gideon Roman", cursive;
+  background-color: gainsboro;
+}
+
+.span-password span a {
+  text-decoration: none;
+  color: black;
+}
+.container img {
+  height: 500px;
+  margin-left: 4px;
+}

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Source+Serif+4:ital,wght@1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gideon Roman", cursive;
+  background-color: gainsboro;
+}
+
+.carousel-inner .carousel-item {
+  height: 50vh;
+}
+
+.carousel-inner .carousel-item img {
+  height: 400px;
+  filter: grayscale(0.8);
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 400px;
+  width: 100%;
+  z-index: 1;
+}
+
+.container h1 {
+  margin-top: 5px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.container h4 {
+  margin-top: 30px;
+  font-weight: bold;
+  color: gray;
+}
+
+.container p {
+  margin-top: 30px;
+}
+
+.rounded {
+  margin-top: 20px;
+  height: 50vh;
+  width: 100%;
+}
+
+.container h3 {
+  font-weight: bolder;
+}
+
+.text-center {
+  margin-top: 10px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.form-label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+footer {
+  font-family: "Gideon Roman", cursive;
+}
+
+* footer */ footer {
+  margin-top: 20px;
+  height: 150px;
+}
+footer span {
+  font-size: 14px;
+  font-style: normal;
+}
+
+@media (min-width: 960px) {
+  .rounded {
+    margin-top: 20px;
+    height: 80vh;
+    width: 80%;
+  }
+}

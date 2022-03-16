@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./img/logo.png">
+
+
+    <title>Art de la peinture</title>
+  </head>
+  <body>
+    <header>
+      <!--Menú-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#"
+              ><i class="fa fa-paint-brush" aria-hidden="true"></i> Art de la
+              Peinture</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./acerca_de_nosotros.html">Acerca de nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./suscribcion.html">Suscribirse</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./login.html">Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main>
+      <!--CONTENIDO PRINCIPAL-->
+      <section>
+          <!--CAROUSEL-->
+          <div
+            id="carousel"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+            data-bs-pause="false"
+          >
+          <!--INICIO DE CONTENEDOR DE IMÁGENES-->
+            <div class="carousel-inner">
+            
+              <div class="carousel-item active">
+                <img src="./img/Carrusel/Auguste Renoir-Carrusel.jpg" class="d-block w-100" alt="Renoir"/>
+              </div>
+
+              <div class="carousel-item">
+                <img src="./img/Carrusel/Frida Kahlo-Carrusel.jpg" class="d-block w-100" alt="Frida Kahlo"/>
+              </div>
+
+              <div class="carousel-item">
+                <img src="./img/Carrusel/Georgia O'Keeffe-Carrusel.jpg" class="d-block w-100" alt="Georgia O'Keeffe"/>
+              </div>
+
+              <div class="carousel-item">
+                <img src="./img/Carrusel/Picasso-Carrusel.jpg" class="d-block w-100" alt="Picasso"/>
+              </div>
+
+              <div class="carousel-item">
+                <img src="./img/Carrusel/Raquel Forner-Carrusel.jpg" class="d-block w-100" alt="Raquel Forner"/>
+              </div>
+
+              <div class="carousel-item">
+                <img src="./img/Carrusel/Salvador Dalí-Carrusel.jpg" class="d-block w-100" alt="Dalí"/>
+              </div>
+              <div class="overlay"></div>
+            </div>
+            <!--FIN DE CONTENEDOR DE IMÁGENES DEL CARRUSEL-->
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+       <section>
+        <!--CONTENEDOR DE CARDS DE ENTRADAS A LOS BLOGS-->
+       <div class="container">
+          <div class="row my-3">
+            <!--Card 1-->
+            <div class="col-12 col-md mb-2">
+              <div class="card bg-dark text-white">
+                <img src="./img/Surrealismo/Guernica-Pablo Picasso.jpg" class="card-img"
+                alt="Surrealismo"/>
+                  <div class="card-img-overlay card-vintage text-center">
+                      <h5 class="card-title">Las obras más destacadas del Surrealismo</h5>
+                      <p class="card-text">
+                     En 1924 con la publicación del "Manifiesto Surrealista" de André Breton, 
+                     quien exigía que el arte indagara en lo más profundo del ser humano, 
+                     nació el movimiento del Surrealismo.
+                    ¡Descubre más sobre este movimiento y sus obras más destacadas!
+                     </p>
+                     <a href="./Card1.html" class="btn btn-outline-light btn-card mb-2">Ver más</a>
+                  </div>
+              </div>
+          </div>
+          <!--Card 2-->
+          <div class="col-12 col-md mb-2">
+              <div class="card bg-dark text-white">
+                <img src="./img/Realismo/courbet_gustave.jpg" class="card-img" alt="Gustave Courbe"/>
+                <div class="card-img-overlay card-vintage text-center">
+                    <h5 class="card-title">Obras famosas de Gustave Courbe</h5>
+                    <p class="card-text">
+                    Gustave Courbet fue un pintor francés, fundador y máximo representante del realismo
+                    y comprometido activista republicano, cercano al socialismo revolucionario. 
+                  ¡Descubre cuáles fueron sus obras más famosas!
+                  </p>
+                  <a href="./Card2.html" class="btn btn-outline-light btn-card mb-2">Ver más</a>
+               </div>
+              </div>
+          </div>
+          <!--Card 3-->
+          <div class="col-12 col-md">
+               <div class="card bg-dark text-white">
+                 <img src="./img/Arte pop/Marilyn Monroe-Andy warhol.jpg" class="card-img" alt="Arte pop" />
+                  <div class="card-img-overlay card-vintage text-center">
+                     <h5 class="card-title">La llegada del Arte Pop</h5>
+                     <p class="card-text">
+                      ¡Descubre mucho más sobre la llegada del arte pop al mundo!
+                     </p>
+                     <a href="./Card3.html" class="btn btn-outline-light btn-card mb-2">Ver más</a>
+                  </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section>
+      <!--SOBRE LA PÁGINA - PARALLAX-->
+      <div class="container-fluid">
+          <div class="row mt-3 mb-5">
+              <div class="col p-0">
+                 <div class="card bg-dark text-black">
+                    <div class="parallax"></div>
+                    <div class="card-img-overlay text-center mt-5">
+                       <i class="fa fa-paint-brush fa-2x fs-4" aria-hidden="true"> Art de la Peinture</i>
+                       <p class="card-text fs-7"> En un intento de recrear algunos movimientos culturales que surgieron a lo largo de la historia, 
+                         se muestra una galería de imágenes con obras de artistas de tallas excepcionales, que supieron plasmar en un lienzo, 
+                         mucho más que una obra de arte, más bien expresaron cambios culturales que afectaron la filosofía, las artes plásticas, 
+                         la pintura, la música, etc.
+                         La idea de este blog es de poder conocer una pequeña parte de nuestra historia a través del arte
+                         y por que no, tomarnos unos minutos para poder disfrutar de ella.</p>
+                         <a href="./galeria.html" class="btn btn-outline-dark mb-5">¡Hecha un vistazo a nuestra galería!</a>
+                   </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <!--PUBLICIDAD-->
+      <div class="container mt-3 text-center">
+        <div class="row mt-5">
+          <div class="col-12 col-lg-4 pe-lg-3 offset-lg-4 col">
+            <h3 class="fw-bold">Movimientos artísticos</h3>
+            <div class="img-rolling d-none d-lg-block">
+              <a href="./error404.html">
+                <img src="./img/photo_2022-03-01_19-19-28.jpg" alt="Publicidad de Rolling Code">
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8 offset-lg-2 col mt-5 mb-5">
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item">Realismo</li>
+              <li class="list-group-item">Hiperrealismo</li>
+              <li class="list-group-item">Surrealismo</li>
+              <li class="list-group-item">Impresionismo</li>
+              <li class="list-group-item">Expresionismo</li>
+              <li class="list-group-item">Arte Abstrato</li>
+              <li class="list-group-item">Arte Pop</li>
+            </ol>
+          </div>
+          <div class="col-12 col-lg-8 offset-lg-4 col mt-5 mb-5">
+            <!--Botones de Paginación-->
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+      <!--PIE DE PÁGINA-->
+      <footer class="bg-dark text-light">
+        <div class="container pt-3">
+          <div class="row px-3 text-center">
+            <div class="col"><span> Art de la Peinture</span>
+              <i class="fa fa-paint-brush" aria-hidden="true"></i>
+            </div>
+            <div class="col"><span>Aviso Legal</span></div>
+            <div class="col"><span>Privacidad</span></div>
+          </div>
+          <div class="row px-3 mt-2">
+            <div class="col-4 col-md-12 text-center mb-3">
+              <span>Seguinos en:</span>
+            </div>
+            <div class="col text-center mb-2">
+              <span
+                ><i class="fa fa-facebook fa-2x" aria-hidden="true"></i
+              ></span>
+            </div>
+            <div class="col text-center">
+              <span
+                ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i
+              ></span>
+            </div>
+            <div class="col text-center">
+              <span
+                ><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i
+              ></span>
+            </div>
+            <div class="col text-center">
+              <span
+                ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/c2813ccf5b.js"></script>
+  </body>
+</html>

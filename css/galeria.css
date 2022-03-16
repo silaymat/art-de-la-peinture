@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Source+Serif+4:ital,wght@1,200&display=swap");
+
+body {
+  font-family: "Gideon Roman", cursive;
+  background-color: gainsboro;
+}
+
+.row {
+  display: flex;
+  padding: 3rem;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 25%;
+  padding: 2rem;
+}
+
+.column img {
+  width: 120%;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  transition-duration: 0.7s;
+}
+
+.column img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    padding: 0.3rem;
+  }
+
+  .column img {
+    margin-top: 0.3rem;
+    width: 100%;
+    transition-duration: 0s;
+  }
+
+  .column img:hover {
+    transform: none;
+  }
+
+  .row {
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  /*MAIN DE IMAGENES*/
+  .column {
+    flex: 100%;
+    padding: 0;
+  }
+
+  .column img {
+    margin-top: 0.5rem;
+  }
+
+  .row {
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 1rem;
+  }
+}
