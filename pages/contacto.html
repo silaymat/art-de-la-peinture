@@ -10,10 +10,11 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="icon" href="./img/logo.png" />
-    <title>Suscripcion</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="icon" href="../img/logo.png" />
+
+    <title>Contacto</title>
   </head>
   <body>
     <header>
@@ -23,7 +24,6 @@
             ><i class="fa fa-paint-brush" aria-hidden="true"></i> Art de la
             Peinture</a
           >
-
           <button
             class="navbar-toggler"
             type="button"
@@ -38,7 +38,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="./index.html">Home</a>
+                <a class="nav-link" href="../index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./acerca_de_nosotros.html"
@@ -46,10 +46,12 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Contacto</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Suscribirse</a>
+                <a class="nav-link" href="./suscripcion.html">Suscribirse</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./login.html">Login</a>
@@ -60,45 +62,62 @@
       </nav>
     </header>
     <main>
-        <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-        <section id="contacto" class="ancla">
-            <div class="container">
-              <div class="row my-3">
-                <div class="col-12 col-md-6 offset-md-3 text-center">
-                  <h3 class="fw-bold">Suscríbete</h3>
+      <section>
+        <div class="contactos">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 offset-md-3 text-center mt-4">
+                <h3 class="fw-bold mt-5 mb-2">Contáctanos</h3>
+                <p>
+                  Podés dejarnos tus consultas en el siguiente formulario y lo
+                  responderemos a la brevedad.
+                </p>
+              </div>
+            </div>
+            <form class="row">
+              <div class="col-12 col-md-3 offset-md-3 mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" required />
+              </div>
+              <div class="col-12 col-md-3 mb-3">
+                <label for="apellido" class="form-label">Apellido</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="apellido"
+                  required
+                />
+              </div>
+              <div class="col-12 col-md-6 offset-md-3 mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="col-12 col-md-6 offset-md-3 mb-3">
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    placeholder="Leave a comment here"
+                    id="floatingTextarea2"
+                    style="height: 100px"
+                  ></textarea>
+                  <label for="floatingTextarea2">Comentarios</label>
                 </div>
               </div>
-              <form class="row my-3">
-                <div class="col-12 col-md-3 offset-md-3 mb-3">
-                  <label for="nombre" class="form-label">Nombre</label>
-                  <input type="text" class="form-control" id="nombre" required />
-                </div>
-                <div class="col-12 col-md-3 mb-3">
-                  <label for="apellido" class="form-label">Apellido</label>
-                  <input type="text" class="form-control" id="apellido" required />
-                </div>
-                <div class="col-12 col-md-6 offset-md-3 mb-3">
-                  <label for="email" class="form-label">Correo electrónico</label>
-                  <input type="email" class="form-control" id="email" required />
-                </div>
-                <div class="col-12 col-md-6 offset-md-3 d-flex justify-content-end">
-                  <button
-                    type="reset"
-                    class="btn btn-outline-dark btn-card mb-2 me-2">Limpiar</button>
-                  <button class="btn btn-outline-dark btn-card mb-2 px-3">Enviar</button>
-                </div>
-              </form>
-            </div>
+              <div
+                class="col-12 col-md-6 offset-md-3 d-flex justify-content-end"
+              >
+                <button type="reset" class="btn btn-outline-dark me-2">
+                  Limpiar
+                </button>
+                <button class="btn btn-outline-dark px-3">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
-    <br/>
-    <br/>
-    <footer class="bg-dark text-light mt-5">
+    <!--PIE DE PÁGINA-->
+    <footer class="bg-dark text-light">
       <div class="container pt-3">
         <div class="row px-3 text-center">
           <div class="col">
